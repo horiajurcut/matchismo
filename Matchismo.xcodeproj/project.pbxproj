@@ -18,6 +18,7 @@
 		861DFE021D2714AF00941F66 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 861DFE001D2714AF00941F66 /* LaunchScreen.storyboard */; };
 		865670741D29B2D2008F13C0 /* CardMatchingGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 865670731D29B2D2008F13C0 /* CardMatchingGame.m */; };
 		86A44A101D271EEB00ADD628 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 86A44A0F1D271EEB00ADD628 /* Card.m */; };
+		86C601221D2DA9D800A362E5 /* PlayingCardGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C601211D2DA9D800A362E5 /* PlayingCardGameViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,8 @@
 		865670731D29B2D2008F13C0 /* CardMatchingGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CardMatchingGame.m; path = Model/CardMatchingGame.m; sourceTree = "<group>"; };
 		86A44A0E1D271EEB00ADD628 /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Card.h; path = Model/Card.h; sourceTree = "<group>"; };
 		86A44A0F1D271EEB00ADD628 /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Card.m; path = Model/Card.m; sourceTree = "<group>"; };
+		86C601201D2DA9D800A362E5 /* PlayingCardGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCardGameViewController.h; sourceTree = "<group>"; };
+		86C601211D2DA9D800A362E5 /* PlayingCardGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCardGameViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +79,8 @@
 				861DFE0B1D271D0500941F66 /* Model */,
 				861DFDF81D2714AF00941F66 /* CardGameViewController.h */,
 				861DFDF91D2714AF00941F66 /* CardGameViewController.m */,
+				86C601201D2DA9D800A362E5 /* PlayingCardGameViewController.h */,
+				86C601211D2DA9D800A362E5 /* PlayingCardGameViewController.m */,
 				861DFDFB1D2714AF00941F66 /* Main.storyboard */,
 				861DFDFE1D2714AF00941F66 /* Assets.xcassets */,
 				861DFE001D2714AF00941F66 /* LaunchScreen.storyboard */,
@@ -190,6 +195,7 @@
 				8603B6161D28792700DCDB09 /* PlayingCardDeck.m in Sources */,
 				861DFDF41D2714AF00941F66 /* main.m in Sources */,
 				86A44A101D271EEB00ADD628 /* Card.m in Sources */,
+				86C601221D2DA9D800A362E5 /* PlayingCardGameViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
